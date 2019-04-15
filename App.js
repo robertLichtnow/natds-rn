@@ -1,13 +1,8 @@
 import React from 'react';
-import { Text } from 'react-native';
-
-import { NatContainer } from './lib/components/NatContainer';
-import { NatHeader } from './lib/components/NatHeader';
+import { View, Text } from 'react-native';
 
 export const App = () => (
-  <NatContainer color="#afaeae">
-    <Text>List of components</Text>
-    <NatHeader title="Test title to header component" icon="iconRight" />
-
-  </NatContainer>
+  <View style={{ height: '100%', alignItems: 'center', justifyContent: 'center' }}>
+     <Text>You can test your component here</Text>
+  </View>
 );
