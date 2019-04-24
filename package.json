@@ -32,6 +32,8 @@
     "@react-native-community/eslint-config": "^0.0.3",
     "babel-jest": "^24.5.0",
     "babel-plugin-inline-import": "^3.0.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
     "eslint": "^5.15.3",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.16.0",
@@ -44,7 +46,8 @@
     "react-test-renderer": "16.8.3"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "setupFiles": ["<rootDir>/test-setup.js"]
   },
   "rnpm": {
     "assets": [

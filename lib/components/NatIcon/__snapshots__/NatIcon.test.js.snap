@@ -11,7 +11,7 @@ exports[`Icon component Should render icon component correctly 1`] = `
       },
       undefined,
       Object {
-        "fontFamily": "icomoon",
+        "fontFamily": "naturaiconography",
         "fontStyle": "normal",
         "fontWeight": "normal",
       },
@@ -19,6 +19,6 @@ exports[`Icon component Should render icon component correctly 1`] = `
     ]
   }
 >
-  
+  
 </Text>
 `;
