@@ -5612,18 +5612,6 @@ react-native-svg-transformer@^0.12.1:
     "@svgr/core" "^4.1.0"
     semver "^5.6.0"
 
-react-native-svg-uri@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/react-native-svg-uri/-/react-native-svg-uri-1.2.3.tgz#2f67f30564068a0fee68a751845332a5185a1aab"
-  integrity sha1-L2fzBWQGig/uaKdRhFMypRhaGqs=
-  dependencies:
-    xmldom "^0.1.22"
-
-react-native-svg@^9.3.7:
-  version "9.3.7"
-  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-9.3.7.tgz#00f72f6105177e93bf0cb56bd0d1339db9b6649f"
-  integrity sha512-PmiMhcprv0o01ysgOYacu+iS7Lqk4kA9zE6xFcqV/dnKWPUxD1nb8CAt0FSXOR2QiesAzXVIBVGe5SSiHprTgw==
-
 react-native-vector-icons@^6.4.2:
   version "6.4.2"
   resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-6.4.2.tgz#ee0b097e783387544ed160a3192a437c097e551d"
@@ -7152,7 +7140,7 @@ xmldoc@^0.4.0:
   dependencies:
     sax "~1.1.1"
 
-xmldom@0.1.x, xmldom@^0.1.22:
+xmldom@0.1.x:
   version "0.1.27"
   resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.27.tgz#d501f97b3bdb403af8ef9ecc20573187aadac0e9"
   integrity sha1-1QH5ezvbQDr4757MIFcxh6rawOk=
