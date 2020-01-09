@@ -7,14 +7,15 @@ exports[`Header component Should render container component correctly 1`] = `
   style={
     Array [
       Object {
+        "alignItems": "center",
         "backgroundColor": "#FFFFFF",
+        "display": "flex",
         "flexDirection": "row",
-        "flexWrap": "wrap",
+        "flexWrap": "nowrap",
         "height": 56,
         "justifyContent": "space-between",
-        "paddingBottom": 16,
         "paddingLeft": 16,
-        "paddingTop": 16,
+        "paddingRight": 16,
         "width": "100%",
       },
       false,
@@ -31,7 +32,8 @@ exports[`Header component Should render container component correctly 1`] = `
           "color": "#333333",
           "fontFamily": "NaturaSans-Regular",
           "fontSize": 20,
-          "marginLeft": 24,
+          "paddingLeft": 45,
+          "paddingTop": 8,
         },
       ]
     }
@@ -44,10 +46,7 @@ exports[`Header component Should render container component correctly 1`] = `
       Array [
         Object {
           "color": "#F4AB34",
-          "flexBasis": 0,
-          "flexGrow": 1,
-          "flexShrink": 1,
-          "justifyContent": "flex-end",
+          "marginTop": 4,
           "width": 60,
         },
       ]
