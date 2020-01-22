@@ -47,7 +47,7 @@ storiesOf('NatCard', module)
 storiesOf('NatGenericCard', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('Default', () => (
-    <NatGenericCard>
+    <NatGenericCard width={100}>
       <StoryNatTextInput type="default" />
     </NatGenericCard>
   ));
