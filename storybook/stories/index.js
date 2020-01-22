@@ -11,10 +11,17 @@ import {
 import { StoryNatTextInput } from './StoryNatTextInput';
 import { NatGenericCard } from '../../lib/components/NatGenericCard/NatGenericCard';
 import { StoryNatCard } from './StoryNatCard';
+import { StoryNatMenuItem } from './StoryNatMenuItem';
 import CenterView from './CenterView';
 import Welcome from './Welcome';
 
 storiesOf('Welcome', module).add('NATDS', () => <Welcome showApp={linkTo('Welcome')} />);
+
+storiesOf('NatMenuItem', module)
+  .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
+  .add('Icon', () => (
+    <StoryNatMenuItem />
+  ));
 
 storiesOf('NatTextInput', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
@@ -36,6 +43,7 @@ storiesOf('NatCard', module)
   .add('Default', () => (
     <StoryNatCard />
   ));
+
 storiesOf('NatGenericCard', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('Default', () => (
