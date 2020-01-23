@@ -3,7 +3,6 @@
 exports[`Header component Should render container component correctly 1`] = `
 <View
   accessibilityRole="header"
-  accessible={true}
   style={
     Array [
       Object {
@@ -78,10 +77,7 @@ exports[`Header component Should render container component correctly 1`] = `
          
          
       </Text>
-      <Image
-        accessibilityLabel="realizar ação do item da barra superior direita"
-        accessible={true}
-      />
+      <Image />
     </View>
   </View>
 </View>
