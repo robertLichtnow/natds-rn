@@ -6,6 +6,7 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
+    "test:clean": "jest --update-snapshot",
     "ios:5": "react-native run-ios --simulator=\"iPhone 5s\"",
     "coverage": "jest --coverage",
     "lint": "eslint .",
@@ -58,6 +59,9 @@
     "preset": "react-native",
     "setupFiles": [
       "<rootDir>/test-setup.js"
-    ]
+    ],
+    "moduleNameMapper": {
+      "\\.svg": "<rootDir>/__mocks__/svgMock.js"
+    }
   }
 }

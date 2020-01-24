@@ -20,6 +20,7 @@ exports[`StoryNatMenuItem component Should render StoryNatMenuItem component  1`
       },
       Object {
         "backgroundColor": "#FFF",
+        "paddingTop": 20,
         "width": 300,
       },
     ]
@@ -28,7 +29,261 @@ exports[`StoryNatMenuItem component Should render StoryNatMenuItem component  1`
   <RCTScrollView>
     <View>
       <Text>
-        With Icon
+        Without Icon
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "space-between",
+            "marginLeft": 16,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#333333",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "marginLeft": 32,
+              },
+            ]
+          }
+          type="default"
+        >
+          First menu
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "space-between",
+            "marginLeft": 16,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#333333",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "marginLeft": 32,
+              },
+            ]
+          }
+          type="default"
+        >
+          Second menu
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "space-between",
+            "marginLeft": 16,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#333333",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "marginLeft": 32,
+              },
+            ]
+          }
+          type="default"
+        >
+          Another sample menu
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "space-between",
+            "marginLeft": 16,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#333333",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "marginLeft": 32,
+              },
+            ]
+          }
+          type="default"
+        >
+          Another sample menu
+        </Text>
+      </View>
+      <Text>
+        Use SVG
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "space-between",
+            "marginLeft": 16,
+            "opacity": 1,
+          }
+        }
+      >
+        <SvgMock
+          height="24"
+          width="24"
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#333333",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "marginLeft": 32,
+              },
+            ]
+          }
+          type="default"
+        >
+          First menu
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "space-between",
+            "marginLeft": 16,
+            "opacity": 1,
+          }
+        }
+      >
+        <SvgMock
+          height="24"
+          width="24"
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#333333",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "marginLeft": 32,
+              },
+            ]
+          }
+          type="default"
+        >
+          Second menu
+        </Text>
+      </View>
+      <Text>
+        With External Icon URL
       </Text>
       <View
         accessible={true}
@@ -55,7 +310,7 @@ exports[`StoryNatMenuItem component Should render StoryNatMenuItem component  1`
         <Image
           source={
             Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_add_document.png",
+              "uri": "https://s3-sa-east-1.amazonaws.com/somos-natura-prd/files/menus/261/img_url_tmp_261_20180323135427.png",
             }
           }
           style={
@@ -82,7 +337,7 @@ exports[`StoryNatMenuItem component Should render StoryNatMenuItem component  1`
           }
           type="default"
         >
-          icon_outlined_nat_ic_add_document
+          Menu Food
         </Text>
       </View>
       <View
@@ -110,7 +365,7 @@ exports[`StoryNatMenuItem component Should render StoryNatMenuItem component  1`
         <Image
           source={
             Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_bus.png",
+              "uri": "https://s3-sa-east-1.amazonaws.com/somos-natura-prd/files/menus/generic_menu/img_url_tmp_generic_menu_20170822160140.png",
             }
           }
           style={
@@ -137,942 +392,7 @@ exports[`StoryNatMenuItem component Should render StoryNatMenuItem component  1`
           }
           type="default"
         >
-          icon_outlined_nat_ic_bus
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_channel.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_channel
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_copy.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_copy
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_exit.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_exit
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_health.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_health
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_home.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_home
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_lock.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_lock
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_menu.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_menu
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_mic_rec.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_mic_rec
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_money_paper.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_money_paper
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_nat_ic_chat.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_nat_ic_chat
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_occurrence.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_occurrence
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_restaurant.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_restaurant
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_right.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_right
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_speaker.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_speaker
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_store.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_store
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_waze.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_waze
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        focusable={true}
-        isTVSelectable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "alignItems": "center",
-            "flexDirection": "row",
-            "height": 48,
-            "justifyContent": "space-between",
-            "marginLeft": 16,
-            "opacity": 1,
-          }
-        }
-      >
-        <Image
-          source={
-            Object {
-              "testUri": "../../../lib/assets/icons/icon_outlined_nat_ic_wifi.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "height": 24,
-                "width": 24,
-              },
-            ]
-          }
-        />
-        <Text
-          style={
-            Array [
-              Object {
-                "alignSelf": "center",
-                "color": "#333333",
-                "flexBasis": 0,
-                "flexGrow": 1,
-                "flexShrink": 1,
-                "marginLeft": 32,
-              },
-            ]
-          }
-          type="default"
-        >
-          icon_outlined_nat_ic_wifi
+          Bus Information
         </Text>
       </View>
     </View>
