@@ -3,100 +3,57 @@ import { Text, ScrollView } from 'react-native';
 import { NatContainer, NatMenuItem } from '../../../lib';
 
 export const StoryNatMenuItem = () => {
-  const list = [
+  const menuList = [
     {
-      name: 'icon_outlined_nat_ic_add_document',
-      icon: 'icon_outlined_nat_ic_add_document',
+      id: 1,
+      name: 'First menu',
+      level: 1,
+    },
+    {
+      id: 2,
+      name: 'Second menu',
+      level: 1,
+    },
+    {
+      id: 3,
+      name: 'Another sample menu',
+      level: 1,
+    },
+    {
+      id: 4,
+      name: 'Another sample menu',
+      level: 1,
+    },
+  ];
+  const menuListSvg = [
+    {
+      id: 1,
+      name: 'First menu',
+      svg: {
+        name: 'outlined-content-book',
+        size: '24',
+      },
+      level: 1,
+    },
+    {
+      id: 2,
+      name: 'Second menu',
+      svg: {
+        name: 'filled-media-play',
+        size: '24',
+      },
+      level: 1,
+    },
+  ];
+  const menuListIconUri = [
+    {
+      name: 'Menu Food',
+      icon: 'https://s3-sa-east-1.amazonaws.com/somos-natura-prd/files/menus/261/img_url_tmp_261_20180323135427.png',
       level: '1',
     },
     {
-      name: 'icon_outlined_nat_ic_bus',
-      icon: 'icon_outlined_nat_ic_bus',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_channel',
-      icon: 'icon_outlined_nat_ic_channel',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_copy',
-      icon: 'icon_outlined_nat_ic_copy',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_exit',
-      icon: 'icon_outlined_nat_ic_exit',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_health',
-      icon: 'icon_outlined_nat_ic_health',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_home',
-      icon: 'icon_outlined_nat_ic_home',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_lock',
-      icon: 'icon_outlined_nat_ic_lock',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_menu',
-      icon: 'icon_outlined_nat_ic_menu',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_mic_rec',
-      icon: 'icon_outlined_nat_ic_mic_rec',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_money_paper',
-      icon: 'icon_outlined_nat_ic_money_paper',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_nat_ic_chat',
-      icon: 'icon_outlined_nat_ic_nat_ic_chat',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_occurrence',
-      icon: 'icon_outlined_nat_ic_occurrence',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_restaurant',
-      icon: 'icon_outlined_nat_ic_restaurant',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_right',
-      icon: 'icon_outlined_nat_ic_right',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_speaker',
-      icon: 'icon_outlined_nat_ic_speaker',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_store',
-      icon: 'icon_outlined_nat_ic_store',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_waze',
-      icon: 'icon_outlined_nat_ic_waze',
-      level: '1',
-    },
-    {
-      name: 'icon_outlined_nat_ic_wifi',
-      icon: 'icon_outlined_nat_ic_wifi',
+      name: 'Bus Information',
+      icon: 'https://s3-sa-east-1.amazonaws.com/somos-natura-prd/files/menus/generic_menu/img_url_tmp_generic_menu_20170822160140.png',
       level: '1',
     },
   ];
@@ -104,11 +61,30 @@ export const StoryNatMenuItem = () => {
   return (
     <NatContainer style={{ backgroundColor: '#FFF', width: 300 }}>
       <ScrollView>
-        <Text>With Icon</Text>
-        {list.map(item => (
+        <Text>Without Icon</Text>
+        {menuList.map(item => (
           <NatMenuItem
             title={item.name}
-            icon={{ name: item.icon }}
+            key={item.id}
+            level={item.levell}
+            onPress={() => { alert('click event'); }}
+          />
+        ))}
+        <Text>Use SVG</Text>
+        {menuListSvg.map(item => (
+          <NatMenuItem
+            title={item.name}
+            icon={{ svg: item.svg }}
+            key={item.id}
+            level={item.levell}
+            onPress={() => { alert('click event'); }}
+          />
+        ))}
+        <Text>With External Icon URL</Text>
+        {menuListIconUri.map(item => (
+          <NatMenuItem
+            title={item.name}
+            icon={{ uri: item.icon }}
             key={item.name}
             level={item.levell}
             onPress={() => { alert('click event'); }}
