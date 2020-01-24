@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, ScrollView } from 'react-native';
+import { Text, ScrollView,  } from 'react-native';
 import { NatContainer, NatMenuItem } from '../../../lib';
 
 export const StoryNatMenuItem = () => {
@@ -59,7 +59,7 @@ export const StoryNatMenuItem = () => {
   ];
 
   return (
-    <NatContainer style={{ backgroundColor: '#FFF', width: 300 }}>
+    <NatContainer style={{ backgroundColor: '#FFF', width: 300, paddingTop: 20 }}>
       <ScrollView>
         <Text>Without Icon</Text>
         {menuList.map(item => (
