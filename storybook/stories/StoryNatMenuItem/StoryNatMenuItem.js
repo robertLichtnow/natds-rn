@@ -28,19 +28,90 @@ export const StoryNatMenuItem = () => {
   const menuListSvg = [
     {
       id: 1,
-      name: 'First menu',
+      name: 'outlined-navigation-home',
       svg: {
-        name: 'outlined-content-book',
+        name: 'outlined-navigation-home',
         size: '24',
       },
       level: 1,
     },
     {
       id: 2,
-      name: 'Second menu',
+      name: 'outlined-content-lock',
       svg: {
-        name: 'filled-media-play',
-        size: '24',
+        name: 'outlined-content-lock',
+      },
+      level: 1,
+    },
+    {
+      id: 3,
+      name: 'outlined-content-wifi',
+      svg: {
+        name: 'outlined-content-wifi',
+      },
+      level: 1,
+    },
+    {
+      id: 4,
+      name: 'outlined-content-adddocument',
+      svg: {
+        name: 'outlined-content-adddocument',
+      },
+      level: 1,
+    },
+    {
+      id: 5,
+      name: 'outlined-communication-chat',
+      svg: {
+        name: 'outlined-communication-chat',
+      },
+      level: 1,
+    },
+    {
+      id: 6,
+      name: 'outlined-content-channel',
+      svg: {
+        name: 'outlined-content-channel',
+      },
+      level: 1,
+    },
+    {
+      id: 7,
+      name: 'outlined-finance-moneypaper',
+      svg: {
+        name: 'outlined-finance-moneypaper',
+      },
+      level: 1,
+    },
+    {
+      id: 8,
+      name: 'outlined-communication-speaker',
+      svg: {
+        name: 'outlined-communication-speaker',
+      },
+      level: 1,
+    },
+    {
+      id: 8,
+      name: 'outlined-place-bus',
+      svg: {
+        name: 'outlined-place-bus',
+      },
+      level: 1,
+    },
+    {
+      id: 8,
+      name: 'outlined-alert-info',
+      svg: {
+        name: 'outlined-alert-info',
+      },
+      level: 1,
+    },
+    {
+      id: 9,
+      name: 'outlined-navigation-exit',
+      svg: {
+        name: 'outlined-navigation-exit',
       },
       level: 1,
     },
