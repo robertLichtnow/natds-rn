@@ -92,7 +92,7 @@ export const StoryNatMenuItem = () => {
       level: 1,
     },
     {
-      id: 8,
+      id: 9,
       name: 'outlined-place-bus',
       svg: {
         name: 'outlined-place-bus',
@@ -100,7 +100,7 @@ export const StoryNatMenuItem = () => {
       level: 1,
     },
     {
-      id: 8,
+      id: 10,
       name: 'outlined-alert-info',
       svg: {
         name: 'outlined-alert-info',
@@ -108,7 +108,7 @@ export const StoryNatMenuItem = () => {
       level: 1,
     },
     {
-      id: 9,
+      id: 11,
       name: 'outlined-navigation-exit',
       svg: {
         name: 'outlined-navigation-exit',
