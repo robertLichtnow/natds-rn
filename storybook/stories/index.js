@@ -12,6 +12,8 @@ import { StoryNatTextInput } from './StoryNatTextInput';
 import { NatGenericCard } from '../../lib/components/NatGenericCard/NatGenericCard';
 import { StoryNatCard } from './StoryNatCard';
 import { StoryNatMenuItem } from './StoryNatMenuItem';
+import { StoryNatHeader } from './StoryNatHeader';
+import { StoryNatHeaderNew } from './StoryNatHeaderNew';
 import CenterView from './CenterView';
 import Welcome from './Welcome';
 import icoArrowLeft from '../../lib/assets/icons/ic_arrow_left_white.png';
@@ -22,6 +24,18 @@ storiesOf('NatMenuItem', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('All', () => (
     <StoryNatMenuItem />
+  ));
+
+storiesOf('NatHeader', module)
+  .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
+  .add('All', () => (
+    <StoryNatHeader />
+  ));
+
+storiesOf('NatHeaderNew', module)
+  .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
+  .add('All', () => (
+    <StoryNatHeaderNew />
   ));
 
 storiesOf('NatTextInput', module)
