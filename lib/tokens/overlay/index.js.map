@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["overlay","solidBlack"],"mappings":"yDAAO,GAAMA,yBAAU;AACrBC,WAAY,IADS,CAAhB","file":"index.js","sourcesContent":["export const overlay = {\n  solidBlack: 0.56,\n};\n"]}

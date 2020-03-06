@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["NatGenericCard"],"mappings":"mNAASA,c","file":"index.js","sourcesContent":["export { NatGenericCard } from './NatGenericCard';\n"]}

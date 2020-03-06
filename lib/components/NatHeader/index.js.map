@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["NatHeader"],"mappings":"+LAASA,S","file":"index.js","sourcesContent":["export { NatHeader } from './NatHeader';\n"]}

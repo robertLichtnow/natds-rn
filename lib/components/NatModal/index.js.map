@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["NatModal"],"mappings":"2LAASA,Q","file":"index.js","sourcesContent":["export { NatModal } from './NatModal';\n"]}

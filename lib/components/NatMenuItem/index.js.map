@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["NatMenuItem"],"mappings":"uMAASA,W","file":"index.js","sourcesContent":["export { NatMenuItem } from './NatMenuItem';\n"]}

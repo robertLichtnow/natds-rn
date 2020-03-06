@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["radius","circle","large","medium","none","small"],"mappings":"yDAAO,GAAMA,uBAAS;AACpBC,OAAQ,KADY;AAEpBC,MAAO,CAFa;AAGpBC,OAAQ,CAHY;AAIpBC,KAAM,CAJc;AAKpBC,MAAO,CALa,CAAf","file":"index.js","sourcesContent":["export const radius = {\n  circle: '50%',\n  large: 8,\n  medium: 4,\n  none: 0,\n  small: 2,\n};\n"]}

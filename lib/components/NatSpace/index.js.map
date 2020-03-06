@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["NatSpace"],"mappings":"2LAASA,Q","file":"index.js","sourcesContent":["export { NatSpace } from './NatSpace';\n"]}

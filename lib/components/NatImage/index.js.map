@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["NatImage"],"mappings":"2LAASA,Q","file":"index.js","sourcesContent":["export { NatImage } from './NatImage';\n"]}

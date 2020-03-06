@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["NatIcon"],"mappings":"uLAASA,O","file":"index.js","sourcesContent":["export { NatIcon } from './NatIcon';\n"]}
